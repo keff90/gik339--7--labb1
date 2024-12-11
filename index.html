@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labb 1 - Grupp 7</title>
+</head>
+<body>
+    <div class="wrapper" style="border: 2px solid black; padding: 30px; background-color: mediumspringgreen; width: 300px;">
+        <div class="flex" style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;">       
+            <div class="input-group">
+                <label class="text-label" for="color">Color</label>
+                <input class="text-field" type="text" id="color" name="color" />
+            </div>
+            <div class="input-group">
+                <label class="text-label" for="content">Content</label>
+                <input class="text-field" type="text" id="content" name="content" />
+            </div>
+            <div class="input-group">
+                <label class="text-label">Style on box</label>
+                <input class="check-box" type="checkbox" id="divStyle" name="divStyle"/>
+            </div>
+            <button id="deleteElement">Remove</button>
+            <div id="output" style="width: 400px; height: 100px;"></div>
+        </div>
+    </div>
+    
+    <script src="./labb-1.js"></script>
+</body>
+</html>
